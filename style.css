@@ -1,0 +1,445 @@
+:root {
+
+    /* Primary */
+    --dark-blue-1:hsl(217, 28%, 15%);
+    --dark-blue-2:hsl(218, 28%, 13%);
+    --dark-blue-3:hsl(216, 53%, 9%);
+    --dark-blue-4:hsl(219, 30%, 18%);
+    
+    /* Accent */
+    --Cyan:hsl(176, 68%, 64%);
+    --Blue:hsl(198, 60%, 50%);
+    --Light-Red:hsl(0, 100%, 63%);
+    
+    /* Neutral */
+    --white:hsl(0, 0%, 100%);
+  
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+}
+
+/* Styling navbar section*/
+nav{
+    background-color: var(--dark-blue-1);
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px 20px 20px;
+    box-sizing: border-box;
+}
+
+nav >ul{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    list-style-type: none;
+    gap: 3em;
+}
+
+nav> ul> li> a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+/* Styling header section */
+header{
+    background-color: var(--dark-blue-1);
+    color: var(--white);
+    position: relative;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    padding-bottom: 120px
+}
+
+header > section{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    z-index: 2;
+}
+
+header >article{
+    font-size: 20px;
+    line-height: 28px;
+    z-index: 2;
+}
+
+#btn1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: var(--Blue);
+    color: var(--white);
+    border: none;
+    border-radius: 50px;
+    padding: 20px 100px;
+    margin: 20px 0 30px 0;
+    z-index: 2;
+}
+
+#fig1 >img{
+    width:100%;
+    position:absolute;
+    right: 0;
+    bottom: 0px;
+    z-index:1;
+}
+    
+
+/* Styling about section */
+#about{
+    background-color: var(--dark-blue-2);
+    color: var(--white);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    flex-wrap: wrap;
+    z-index: 2;
+    ;
+}
+
+#features1{
+    margin-top: 15px;
+    z-index: 2;
+}
+
+#features2{
+    z-index: 2;
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    z-index: 2;
+}
+
+#top_left{
+    margin-bottom: 100px;
+    z-index: 2;
+}
+
+#top_right{
+    margin-bottom: 100px;
+    z-index: 2;
+}
+
+/* Styling services section */
+#services{
+    background-color: var(--dark-blue-2);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px 0 20px;
+    position: relative;
+    padding-top: 100px;
+}
+
+#title1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+#services >div >article >p >a{
+    color: var(--Cyan);
+}
+
+/* Styling testimonial section */
+#testimonial{
+    background-color: var(--dark-blue-2);
+    color: var(--white);
+    position: relative;
+    padding-bottom: 400px;
+    z-index: 0;
+    padding-top: 100px;
+}
+
+#fig2{
+    padding: 0 0 0 45px;
+    margin-bottom: -15px;
+}
+
+#comments{
+    color: var(--white);
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title2{
+    background-color: var(--dark-blue-4);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px var(--dark-blue-1);
+}
+
+.fig3{
+    display: flex;
+    line-height: 15px;
+    align-items: center;
+}
+
+.fig3 >img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+}
+
+.info_top{
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.info_down{
+    font-size: 8px;
+}
+
+/* Styling email sign up section */
+#email_sign_up{
+    position: relative;
+}
+
+#sign_up{
+    background-color: var(--dark-blue-1);
+    color: var(--white);
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 30px 15px;
+    position: absolute;
+    z-index: 5;
+    border-radius: 10px;
+    top: 0px;
+    bottom: 100px;
+    left: 250px;
+    box-sizing: border-box;
+    padding-bottom: 300px;
+}
+
+#sign_up> section{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+#email{
+    border: none;
+    border-radius: 50px;
+    padding: 15px 300px 15px 20px;
+    margin: 20px 20px 15px 0;
+}
+
+#btn2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: var(--Blue);
+    color: var(--white);
+    border: none;
+    border-radius: 50px;
+    padding: 15px 30px;
+    margin: 20px 0 15px 0;
+}
+
+/* Styling footer section */
+footer{
+    background-color: var(--dark-blue-3);
+    color: var(--white);
+    padding: 100px 0 20px 0;  
+}
+
+#section1{
+    padding-left: 40px;
+    padding-top: 150px;
+}
+
+#icon{
+    margin-right: -50px;
+}
+#section2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
+}
+
+#section2> div >ul{
+    list-style-type: none;
+}
+
+#section2> div >ul >li >a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+#section3 >ul >li{
+    word-spacing: 15px;
+}
+
+#icons{
+    word-spacing: 25px;
+}
+
+ /* Responsiveness */
+ @media screen and (max-width:719px){
+    /* Styling nav section */
+    nav{
+        justify-content: space-between;
+    }
+   
+    nav >ul{
+        gap: 2em;
+        margin-right: -40px;
+    }
+
+    /* Styling header section */
+    header{
+        align-items: center;
+        box-sizing: border-box;
+        padding: 0 30px 0px 30px;
+    }
+
+    header >figure >img{
+        width: 350px;
+    }
+
+    header > section{
+        font-size: 30px;
+    } 
+
+    header > article{
+        font-size: 14px;
+    }
+
+    /* Styling about section */
+    #about{
+        flex-direction: column;
+        padding-top: 100px;
+    }
+
+    #top_right{
+        margin-top: 90px;
+    }
+
+    #bottom_right{
+        padding-bottom: 150px;
+    }
+
+    /* Styling services section */
+    #services{
+        flex-direction: column;
+        padding: 0 50px;
+        align-items: center;
+
+    }
+
+    #services >figure >img{
+        width: 450px;
+        text-align: center;
+        margin-bottom: -100px;
+    }
+
+    /* Styling testimonial section */
+    #testimonial{
+        flex-direction: column;
+    }
+
+    #fig2{
+        margin-bottom: -25px;
+    }
+
+    #comments{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .title2{
+        margin: 15px 0;
+        width: 65%;
+    }
+
+    /* Styling email sign up section */
+    #sign_up{
+        text-align: center;
+        top: 0px;
+        bottom: 40px;
+        right: 20px;
+        left: 0px;
+        width: 60%;
+        line-height: 20px;
+        align-items: center;
+        padding-bottom: 350px;
+    }
+
+    #sign_up >section{
+        font-size: 30px;
+    }
+
+    #email{
+        padding: 15px 105px 15px 20px;
+        margin-left: 20px;    
+    }
+
+    #btn2{
+        padding: 15px 70px;
+    }
+
+    /* Styling footer section */
+    footer{
+        padding: 100px 30px 0 30px;
+        text-align: left;
+    }
+   
+    #section1{
+        flex-direction: column;
+        padding-top: 200px;
+        margin-left: -40px;
+    }
+
+    #section2{
+        flex-direction: column;
+    }
+
+    #icon{
+        margin: 0 0 -54px 0;
+        padding-left: 40px;
+    }
+
+    #section3{
+        padding-bottom: 50px;
+    }
+
+    #section4{
+        padding-bottom: 30px;
+    }
+
+    #section5{
+        padding-bottom: 40px;
+    }
+
+    #words{
+        box-sizing: border-box;
+        padding: 0 90px;
+        line-height: 30px;
+    }
+
+    #icons{
+        text-align: center;
+    }
+ }
