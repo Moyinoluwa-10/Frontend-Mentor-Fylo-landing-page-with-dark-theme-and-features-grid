@@ -299,12 +299,15 @@ footer{
  @media screen and (max-width:719px){
     /* Styling nav section */
     nav{
-        justify-content: space-between;
+        justify-content: space-evenly;
+        padding: 0;
+        margin-left: -30px;
     }
    
     nav >ul{
-        gap: 2em;
-        margin-right: -40px;
+        gap: 1em;
+        margin-right: 10px;
+        margin: 0;
     }
 
     /* Styling header section */
@@ -349,7 +352,7 @@ footer{
     }
 
     #services >figure >img{
-        width: 450px;
+        width: 390px;
         text-align: center;
         margin-bottom: -100px;
     }
@@ -360,7 +363,8 @@ footer{
     }
 
     #fig2{
-        margin-bottom: -25px;
+        margin-bottom: -30px;
+        margin-left: 25px;
     }
 
     #comments{
@@ -378,13 +382,13 @@ footer{
     #sign_up{
         text-align: center;
         top: 0px;
-        bottom: 40px;
-        right: 20px;
-        left: 0px;
-        width: 60%;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 85%;
         line-height: 20px;
         align-items: center;
-        padding-bottom: 350px;
+        padding-bottom: 430px;
     }
 
     #sign_up >section{
