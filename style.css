@@ -50,6 +50,13 @@ nav> ul> li> a{
     color: var(--white);
 }
 
+nav> ul> li> a:hover{
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+
 /* Styling header section */
 header{
     background-color: var(--dark-blue-1);
@@ -87,7 +94,12 @@ header >article{
     border-radius: 50px;
     padding: 20px 100px;
     margin: 20px 0 30px 0;
+    cursor: pointer;
     z-index: 2;
+}
+
+#btn1:hover{
+    background-color: var(--Cyan);
 }
 
 #fig1 >img{
@@ -162,6 +174,14 @@ header >article{
 
 #services >div >article >p >a{
     color: var(--Cyan);
+    text-decoration: none;
+    border-bottom: 1px solid var(--Cyan);
+    padding-bottom: 3px;
+}
+
+#services >div >article >p >a:hover{
+    color: var(--white);
+    border-bottom: 1px solid var(--white);
 }
 
 /* Styling testimonial section */
@@ -248,6 +268,7 @@ header >article{
     border-radius: 50px;
     padding: 15px 300px 15px 20px;
     margin: 20px 20px 15px 0;
+    outline: none;
 }
 
 #btn2{
@@ -260,6 +281,18 @@ header >article{
     border-radius: 50px;
     padding: 15px 30px;
     margin: 20px 0 15px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+input:valid
+
+input:invalid{
+    border: 5px dashed yellow ; 
+}
+
+#btn2:hover{
+    background-color: var(--Cyan);
 }
 
 /* Styling footer section */
@@ -292,12 +325,29 @@ footer{
     text-decoration: none;
 }
 
+#section2> div >ul >li >a:hover{
+    font-weight: 700;
+}
+
 #section3 >ul >li{
     word-spacing: 15px;
 }
 
 #icons{
     word-spacing: 25px;
+    cursor: pointer;
+}
+
+#ex:hover{
+    color: var(--Cyan);
+}
+
+#ey:hover{
+    color: var(--Cyan);
+}
+
+#ez:hover{
+    color: var(--Cyan);
 }
 
 #ex{
